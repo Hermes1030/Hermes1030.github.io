@@ -1,1 +1,1 @@
-![Visitor Count](https://profile-counter.glitch.me/Insurmountableperson/count.svg)
+![](https://komarev.com/ghpvc/?username=insurmountableperson)
