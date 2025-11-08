@@ -1,155 +1,65 @@
-<!-- styles -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>I compute, therefore I am.</title>
+        <style>
+            :root {
+                --bg: #ffffff;
+                --fg: #000000;
+                --font-stack:
+                    system-ui, -apple-system, "Segoe UI", Roboto,
+                    "Helvetica Neue", Arial, "Noto Sans", "PingFang SC",
+                    "Hiragino Sans", "Microsoft YaHei", sans-serif;
+            }
 
-<link rel="stylesheet" href="./style.css">
+            html,
+            body {
+                height: 100%;
+                margin: 0;
+                background: var(--bg);
+                color: var(--fg);
+                font-family: var(--font-stack);
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
 
-<script src="https://kit.fontawesome.com/f6dbf93105.js" crossorigin="anonymous"></script>
+            .center {
+                min-height: 88vh; /* 保证竖向居中 */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 2rem;
+                box-sizing: border-box;
+            }
 
-</head>
+            .phrase {
+                /* 响应式字号：在小屏到大屏间平滑缩放 */
+                font-size: clamp(28px, 6vw + 1rem, 80px);
+                line-height: 1.05;
+                font-weight: 600;
+                letter-spacing: -0.02em;
+                margin: 0;
+                user-select: none;
+            }
 
-<body>
-
-<!-- **********************************************
-navbar
-********************************************** -->
-
-<nav id="navbar">
-
-    <li><a href="#welcome-section" class="nav-link">home</a></li>
-    <li><a href="#project" class="nav-link">projects</a></li>
-    <li><a href="#skills" class="nav-link">skills</a></li>
-    <li><a href="#expertise" class="nav-link">expertise</a></li>
-
-</nav>
-
-<!-- **********************************************
-landing
-********************************************** -->
-
-<section id="welcome-section">
-    <h1>
-        hi there,
-        <br>i'm
-        <span> Weirdo</span>
-    </h1>
-</section>
-
-<!-- **********************************************
-Projects
-********************************************** -->
-
-<section id="project" class="section">
-    <div>
-        <h2 class="title">
-            project
-        </h2>
-    </div>
-
-    <!-- cards -->
-    <div class="container">
-
-        <!-- single card -->
-        <div class="project">
-            <div class="project-box">
-                <div class="project-content">
-                    <h3>Online Examination</h3>
-                    <p>null</p>
-                    <a href="#">read more</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<!-- **********************************************
-skills
-********************************************** -->
-
-<section id="skills" class="section">
-    <div>
-        <h2 class="title-white">
-            Skills
-        </h2>
-    </div>
-
-    <div class="container">
-
-        <div class="bar">
-            <svg>
-                <circle cx='50%' cy='50%' r="50%"></circle>
-            </svg>
-            <h1>NUll <br>0%</h1>
-        </div>
-
-    </div>
-</section>
-
-<!-- **********************************************
-expertise
-********************************************** -->
-
-<section id="expertise" class="section">
-    <div>
-        <h2 class="title-white">
-            expertise
-        </h2>
-    </div>
-
-    <div class="container">
-
-        <div class="expertise-card">
-            <h3></h3>
-            <p>
-                No content available yet.
-            </p>
-        </div>
-
-    </div>
-</section>
-
-<!-- **********************************************
-socials 
-********************************************** -->
-
-<div class="wrapped">
-    <div class="wrapper">
-        <div class="icon mail">
-            <div class="tooltip">Mail</div>
-            <span><i class="fa fa-envelope"></i></span>
-        </div>
-        <div class="icon github">
-            <div class="tooltip">github</div>
-            <span><i class=" fab fa-github"></i></span>
-        </div>
-        <div class="icon wordpress">
-            <div class="tooltip">WordPress</div>
-            <span><i class="fa fa-wordpress"></i></span>
-        </div>
-    </div>
-</div>
-
-<!-- **********************************************
-footer
-********************************************** -->
-
-<footer id="footer">
-
-    <div class="container">
-        <div class="footer-contact">
-            <h4>Phone Me:</h4>
-            <a href="#">+86 1__ ____ ____</a>
-        </div>
-        <div class="footer-contact">
-            <h4>Email:</h4>
-            <a href="#">_________@163.com</a>
-        </div>
-    </div>
-    <p class="footer-text">
-        2024
-        <span> &copy; </span>
-       Weirdo HomePage. All rights reserved.
-    </p>
-    </div>
-</footer>
-
-</body>
+            @media print {
+                body {
+                    background: var(--bg);
+                    color: var(--fg);
+                }
+                .center {
+                    min-height: auto;
+                    height: 100vh;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main class="center" role="main" aria-label="Centered phrase">
+            <h1 class="phrase">I compute, therefore I am.</h1>
+        </main>
+    </body>
+</html>
