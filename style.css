@@ -1,0 +1,154 @@
+:root {
+    --font:
+        "San Francisco", "SF Pro Display", "Helvetica Neue", system-ui,
+        sans-serif;
+    --accent: #00000080;
+    --bg-start: #00eaff;
+    --bg-middle: #7e7ef2;
+    --bg-end: #ff0000;
+    --text-color: #404046;
+    --subtitle-color: #0000ff59;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    color: var(--text-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(
+        135deg,
+        var(--bg-start),
+        var(--bg-middle),
+        var(--bg-end)
+    );
+    background-size: 400% 400%;
+    animation: subtlePulse 15s ease-in-out infinite alternate;
+}
+
+@keyframes subtlePulse {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* ---------- 主容器 ---------- */
+main {
+    width: 90%;
+    max-width: 700px;
+    padding: 3rem 2rem;
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(65px);
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+/* ---------- 文字样式 ---------- */
+h1 {
+    font-weight: 700;
+    font-size: clamp(2rem, 6vw, 2.8rem);
+    margin-bottom: 0.5em;
+    letter-spacing: clamp(0.5px, 2vw, 1px);
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: clamp(1rem, 4vw, 1.2rem);
+    color: var(--subtitle-color);
+    margin-bottom: 1.5em;
+    letter-spacing: clamp(1px, 4vw, 3.5px);
+}
+
+.intro {
+    font-size: clamp(0.9rem, 3vw, 1.05rem);
+    line-height: 1.6;
+    color: #2c2c2e;
+    margin-bottom: 2em;
+    letter-spacing: 0.5px;
+}
+
+/* ---------- 导航链接 ---------- */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    font-weight: 500;
+    font-size: clamp(0.9rem, 3vw, 1rem);
+    color: var(--accent);
+    text-decoration: none;
+    transition:
+        color 0.3s,
+        transform 0.3s;
+}
+
+nav a:hover {
+    color: #000;
+    transform: translateY(-2px);
+}
+
+/* ---------- 动态立体文字效果 ---------- */
+.floating-text {
+    text-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.1),
+        0 4px 8px rgba(0, 0, 0, 0.08),
+        0 8px 16px rgba(0, 0, 0, 0.06);
+    animation: floatText 4s ease-in-out infinite alternate;
+}
+
+@keyframes floatText {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* ---------- 媒体查询优化 ---------- */
+@media (max-width: 480px) {
+    main {
+        padding: 2rem 1rem;
+        border-radius: 12px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 0.5px;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .intro {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+    }
+}

@@ -1,66 +1,31 @@
 <!doctype html>
-<html lang="en">
+<!-- saved from url=(0022)http://localhost:8000/ -->
+<html lang="zh">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <title>About Weirdo</title>
-        <style>
-            :root {
-                --bg: #ffffff;
-                --fg: #000000;
-                --font-stack:
-                    system-ui, -apple-system, "Segoe UI", Roboto,
-                    "Helvetica Neue", Arial, "Noto Sans", "PingFang SC",
-                    "Hiragino Sans", "Microsoft YaHei", sans-serif;
-            }
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-            html,
-            body {
-                height: 100%;
-                margin: 0;
-                background: var(--bg);
-                color: var(--fg);
-                font-family: var(--font-stack);
-                -webkit-font-smoothing: antialiased;
-                -moz-osx-font-smoothing: grayscale;
-            }
-
-            .center {
-                min-height: 88vh; /* 保证竖向居中 */
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-                padding: 2rem;
-                box-sizing: border-box;
-            }
-
-            .phrase {
-                /* 响应式字号：在小屏到大屏间平滑缩放 */
-                font-size: clamp(28px, 6vw + 1rem, 80px);
-                line-height: 1.05;
-                font-weight: 600;
-                letter-spacing: -0.02em;
-                margin: 0;
-                user-select: none;
-            }
-
-            @media print {
-                body {
-                    background: var(--bg);
-                    color: var(--fg);
-                }
-                .center {
-                    min-height: auto;
-                    height: 100vh;
-                }
-            }
-        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Aboue Me</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <main class="center" role="main" aria-label="Centered phrase">
-            <h1 id="sentence" class="phrase">I compute, therefore I am.</h1>
+        <main>
+            <h1 class="floating-text">Weirdo</h1>
+            <p class="subtitle floating-text">Dreamer / Explorer / Thinker</p>
+            <p class="intro floating-text">”见贤思齐，见不贤而自省。“</p>
+
+            <nav>
+                <a href="mailto:work@weirdo.monster" class="floating-text"
+                    >Email</a
+                >
+                <a
+                    href="https://github.com/Hermes1030"
+                    target="_blank"
+                    class="floating-text"
+                    >GitHub</a
+                >
+                <a href="#" target="_blank" class="floating-text">Blog</a>
+            </nav>
         </main>
-        <script src="script.js"></script>
     </body>
 </html>
