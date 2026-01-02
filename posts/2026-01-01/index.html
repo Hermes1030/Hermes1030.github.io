@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>2026的第一篇文章内容 | Dev Notes</title>
+<meta name="keywords" content="2026">
+<meta name="description" content="
+Apple Watch 记录的元旦烟花。
+动机
+在2026年第一天，写的第一篇博客。
+几年前，就已经用 Hexo 和 WordPress写过几篇内容，然后还部署在了GitHub上，成就感十足。
+大模型的飞速发展，让内容获取唾手可得，想实现什么功能，只要半分钟能给出整个方案从规划到落地。
+还记得22年12月份，ChatGPT刚推出的时候，就它流式输出的内容惊艳到了，那时还在家里远程期末考试，科目是Java面向对象的程序设计。
+后来各种Coder就称自己为 基于ChatGPT的编程 ，一句行业玩笑话，之前是基于百度。
+2025年11月，偶然在平台 Spaceship 买了一个域名 .monster 挂在Cloudflare上。偶然了解Cloudflare会提供一种叫 Tunnel 的内网穿透技术，这个域名就被用起来了。
+决定写博客的想法是，我们在大模型的技术包围下，好像渐渐得都失去了创造力，拿来即用的方法让我们不再关心它是怎么实现的，一出了问题就问AI，反反复复。
+最后，我成了一个没有思想的 Agent。
+
+来自ChatGPT部分内容截图。
+就拿 Tunnel 来说，简短的几个命令，我都会去问上至少两遍。
+平时，每到周五最期待的就是看阮一峰大佬写的周刊，里面的内容有时会让人耳目一新，有时也会产生思考。文章下面的评论也很有意思，各种不同角度的看法。
+让我想引入的是这期：
+第 202 期：三个有启发的学习方法
+
+看似最笨的学习方法&ndash;笔记和记忆力&ndash;偏偏造就了最高的开发效率
+如果没有对旧事物进行大量练习，你不太可能发现新事物。
+要想多学，就必须能在学习中得到快乐。做到这一点的唯一方法，就是努力学习你最感兴趣的东西。
+
+后面在博客里，我也尽可能的会写一些自己觉得有意义的内容。
+最后：
+2026，新年快乐！">
+<meta name="author" content="">
+<link rel="canonical" href="https://about.weirdo.monster/posts/2026-01-01/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://about.weirdo.monster/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://about.weirdo.monster/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://about.weirdo.monster/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://about.weirdo.monster/apple-touch-icon.png">
+<link rel="mask-icon" href="https://about.weirdo.monster/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://about.weirdo.monster/posts/2026-01-01/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://about.weirdo.monster/posts/2026-01-01/">
+  <meta property="og:site_name" content="Dev Notes">
+  <meta property="og:title" content="2026的第一篇文章内容">
+  <meta property="og:description" content=" Apple Watch 记录的元旦烟花。
+动机 在2026年第一天，写的第一篇博客。
+几年前，就已经用 Hexo 和 WordPress写过几篇内容，然后还部署在了GitHub上，成就感十足。
+大模型的飞速发展，让内容获取唾手可得，想实现什么功能，只要半分钟能给出整个方案从规划到落地。
+还记得22年12月份，ChatGPT刚推出的时候，就它流式输出的内容惊艳到了，那时还在家里远程期末考试，科目是Java面向对象的程序设计。
+后来各种Coder就称自己为 基于ChatGPT的编程 ，一句行业玩笑话，之前是基于百度。
+2025年11月，偶然在平台 Spaceship 买了一个域名 .monster 挂在Cloudflare上。偶然了解Cloudflare会提供一种叫 Tunnel 的内网穿透技术，这个域名就被用起来了。
+决定写博客的想法是，我们在大模型的技术包围下，好像渐渐得都失去了创造力，拿来即用的方法让我们不再关心它是怎么实现的，一出了问题就问AI，反反复复。
+最后，我成了一个没有思想的 Agent。
+来自ChatGPT部分内容截图。
+就拿 Tunnel 来说，简短的几个命令，我都会去问上至少两遍。
+平时，每到周五最期待的就是看阮一峰大佬写的周刊，里面的内容有时会让人耳目一新，有时也会产生思考。文章下面的评论也很有意思，各种不同角度的看法。
+让我想引入的是这期：
+第 202 期：三个有启发的学习方法
+看似最笨的学习方法–笔记和记忆力–偏偏造就了最高的开发效率 如果没有对旧事物进行大量练习，你不太可能发现新事物。 要想多学，就必须能在学习中得到快乐。做到这一点的唯一方法，就是努力学习你最感兴趣的东西。 后面在博客里，我也尽可能的会写一些自己觉得有意义的内容。
+最后：
+2026，新年快乐！">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-01T14:09:37+08:00">
+    <meta property="article:modified_time" content="2026-01-01T14:09:37+08:00">
+    <meta property="article:tag" content="2026">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="2026的第一篇文章内容">
+<meta name="twitter:description" content="
+Apple Watch 记录的元旦烟花。
+动机
+在2026年第一天，写的第一篇博客。
+几年前，就已经用 Hexo 和 WordPress写过几篇内容，然后还部署在了GitHub上，成就感十足。
+大模型的飞速发展，让内容获取唾手可得，想实现什么功能，只要半分钟能给出整个方案从规划到落地。
+还记得22年12月份，ChatGPT刚推出的时候，就它流式输出的内容惊艳到了，那时还在家里远程期末考试，科目是Java面向对象的程序设计。
+后来各种Coder就称自己为 基于ChatGPT的编程 ，一句行业玩笑话，之前是基于百度。
+2025年11月，偶然在平台 Spaceship 买了一个域名 .monster 挂在Cloudflare上。偶然了解Cloudflare会提供一种叫 Tunnel 的内网穿透技术，这个域名就被用起来了。
+决定写博客的想法是，我们在大模型的技术包围下，好像渐渐得都失去了创造力，拿来即用的方法让我们不再关心它是怎么实现的，一出了问题就问AI，反反复复。
+最后，我成了一个没有思想的 Agent。
+
+来自ChatGPT部分内容截图。
+就拿 Tunnel 来说，简短的几个命令，我都会去问上至少两遍。
+平时，每到周五最期待的就是看阮一峰大佬写的周刊，里面的内容有时会让人耳目一新，有时也会产生思考。文章下面的评论也很有意思，各种不同角度的看法。
+让我想引入的是这期：
+第 202 期：三个有启发的学习方法
+
+看似最笨的学习方法&ndash;笔记和记忆力&ndash;偏偏造就了最高的开发效率
+如果没有对旧事物进行大量练习，你不太可能发现新事物。
+要想多学，就必须能在学习中得到快乐。做到这一点的唯一方法，就是努力学习你最感兴趣的东西。
+
+后面在博客里，我也尽可能的会写一些自己觉得有意义的内容。
+最后：
+2026，新年快乐！">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://about.weirdo.monster/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "2026的第一篇文章内容",
+      "item": "https://about.weirdo.monster/posts/2026-01-01/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "2026的第一篇文章内容",
+  "name": "2026的第一篇文章内容",
+  "description": " Apple Watch 记录的元旦烟花。\n动机 在2026年第一天，写的第一篇博客。\n几年前，就已经用 Hexo 和 WordPress写过几篇内容，然后还部署在了GitHub上，成就感十足。\n大模型的飞速发展，让内容获取唾手可得，想实现什么功能，只要半分钟能给出整个方案从规划到落地。\n还记得22年12月份，ChatGPT刚推出的时候，就它流式输出的内容惊艳到了，那时还在家里远程期末考试，科目是Java面向对象的程序设计。\n后来各种Coder就称自己为 基于ChatGPT的编程 ，一句行业玩笑话，之前是基于百度。\n2025年11月，偶然在平台 Spaceship 买了一个域名 .monster 挂在Cloudflare上。偶然了解Cloudflare会提供一种叫 Tunnel 的内网穿透技术，这个域名就被用起来了。\n决定写博客的想法是，我们在大模型的技术包围下，好像渐渐得都失去了创造力，拿来即用的方法让我们不再关心它是怎么实现的，一出了问题就问AI，反反复复。\n最后，我成了一个没有思想的 Agent。\n来自ChatGPT部分内容截图。\n就拿 Tunnel 来说，简短的几个命令，我都会去问上至少两遍。\n平时，每到周五最期待的就是看阮一峰大佬写的周刊，里面的内容有时会让人耳目一新，有时也会产生思考。文章下面的评论也很有意思，各种不同角度的看法。\n让我想引入的是这期：\n第 202 期：三个有启发的学习方法\n看似最笨的学习方法\u0026ndash;笔记和记忆力\u0026ndash;偏偏造就了最高的开发效率 如果没有对旧事物进行大量练习，你不太可能发现新事物。 要想多学，就必须能在学习中得到快乐。做到这一点的唯一方法，就是努力学习你最感兴趣的东西。 后面在博客里，我也尽可能的会写一些自己觉得有意义的内容。\n最后：\n2026，新年快乐！\n",
+  "keywords": [
+    "2026"
+  ],
+  "articleBody": " Apple Watch 记录的元旦烟花。\n动机 在2026年第一天，写的第一篇博客。\n几年前，就已经用 Hexo 和 WordPress写过几篇内容，然后还部署在了GitHub上，成就感十足。\n大模型的飞速发展，让内容获取唾手可得，想实现什么功能，只要半分钟能给出整个方案从规划到落地。\n还记得22年12月份，ChatGPT刚推出的时候，就它流式输出的内容惊艳到了，那时还在家里远程期末考试，科目是Java面向对象的程序设计。\n后来各种Coder就称自己为 基于ChatGPT的编程 ，一句行业玩笑话，之前是基于百度。\n2025年11月，偶然在平台 Spaceship 买了一个域名 .monster 挂在Cloudflare上。偶然了解Cloudflare会提供一种叫 Tunnel 的内网穿透技术，这个域名就被用起来了。\n决定写博客的想法是，我们在大模型的技术包围下，好像渐渐得都失去了创造力，拿来即用的方法让我们不再关心它是怎么实现的，一出了问题就问AI，反反复复。\n最后，我成了一个没有思想的 Agent。\n来自ChatGPT部分内容截图。\n就拿 Tunnel 来说，简短的几个命令，我都会去问上至少两遍。\n平时，每到周五最期待的就是看阮一峰大佬写的周刊，里面的内容有时会让人耳目一新，有时也会产生思考。文章下面的评论也很有意思，各种不同角度的看法。\n让我想引入的是这期：\n第 202 期：三个有启发的学习方法\n看似最笨的学习方法–笔记和记忆力–偏偏造就了最高的开发效率 如果没有对旧事物进行大量练习，你不太可能发现新事物。 要想多学，就必须能在学习中得到快乐。做到这一点的唯一方法，就是努力学习你最感兴趣的东西。 后面在博客里，我也尽可能的会写一些自己觉得有意义的内容。\n最后：\n2026，新年快乐！\n",
+  "wordCount" : "39",
+  "inLanguage": "en",
+  "datePublished": "2026-01-01T14:09:37+08:00",
+  "dateModified": "2026-01-01T14:09:37+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://about.weirdo.monster/posts/2026-01-01/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dev Notes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://about.weirdo.monster/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://about.weirdo.monster/" accesskey="h" title="Dev Notes (Alt + H)">Dev Notes</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://about.weirdo.monster/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://about.weirdo.monster/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://about.weirdo.monster/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://about.weirdo.monster/">Home</a>&nbsp;»&nbsp;<a href="https://about.weirdo.monster/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      2026的第一篇文章内容
+    </h1>
+    <div class="post-meta"><span title='2026-01-01 14:09:37 +0800 CST'>January 1, 2026</span>&nbsp;·&nbsp;<span>1 min</span>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e5%8a%a8%e6%9c%ba" aria-label="动机">动机</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><img src="/posts/images/IMG_2791.JPEG" alt="封面" width="315px" height="390px" class="asset-content img">
+<p>Apple Watch 记录的元旦烟花。</p>
+<h2 id="动机">动机<a hidden class="anchor" aria-hidden="true" href="#动机">#</a></h2>
+<p>在2026年第一天，写的第一篇博客。</p>
+<p>几年前，就已经用 <code>Hexo</code> 和 <code>WordPress</code>写过几篇内容，然后还部署在了GitHub上，成就感十足。</p>
+<p>大模型的飞速发展，让内容获取唾手可得，想实现什么功能，只要半分钟能给出整个方案从规划到落地。</p>
+<p>还记得22年12月份，ChatGPT刚推出的时候，就它流式输出的内容惊艳到了，那时还在家里远程期末考试，科目是Java面向对象的程序设计。</p>
+<p>后来各种Coder就称自己为 <strong>基于ChatGPT的编程</strong> ，一句行业玩笑话，之前是基于百度。</p>
+<p>2025年11月，偶然在平台 <code>Spaceship</code> 买了一个域名 <code>.monster</code> 挂在Cloudflare上。偶然了解Cloudflare会提供一种叫 <code>Tunnel</code> 的内网穿透技术，这个域名就被用起来了。</p>
+<p>决定写博客的想法是，我们在大模型的技术包围下，好像渐渐得都失去了创造力，拿来即用的方法让我们不再关心它是怎么实现的，一出了问题就问AI，反反复复。</p>
+<p>最后，我成了一个没有思想的 <code>Agent</code>。</p>
+<img src="/posts/images/Snipaste_2026-01-02_13-44-39.png" alt="封面" width="100%" height="50%" class="asset-content img" />
+<p>来自ChatGPT部分内容截图。</p>
+<p>就拿 <code>Tunnel</code> 来说，简短的几个命令，我都会去问上至少两遍。</p>
+<p>平时，每到周五最期待的就是看阮一峰大佬写的周刊，里面的内容有时会让人耳目一新，有时也会产生思考。文章下面的评论也很有意思，各种不同角度的看法。</p>
+<p>让我想引入的是这期：</p>
+<p><a href="https://www.ruanyifeng.com/blog/2022/04/weekly-issue-202.html">第 202 期：三个有启发的学习方法</a></p>
+<ol>
+<li>看似最笨的学习方法&ndash;笔记和记忆力&ndash;偏偏造就了最高的开发效率</li>
+<li>如果没有对旧事物进行大量练习，你不太可能发现新事物。</li>
+<li>要想多学，就必须能在学习中得到快乐。做到这一点的唯一方法，就是努力学习你最感兴趣的东西。</li>
+</ol>
+<p>后面在博客里，我也尽可能的会写一些自己觉得有意义的内容。</p>
+<p>最后：</p>
+<p>2026，新年快乐！</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://about.weirdo.monster/tags/2026/">2026</a></li>
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://about.weirdo.monster/">Dev Notes</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
