@@ -1,21 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>2026 on Dev Notes</title>
-    <link>https://about.weirdo.monster/tags/2026/</link>
-    <description>Recent content in 2026 on Dev Notes</description>
-    <generator>Hugo -- 0.153.5</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 01 Jan 2026 14:09:37 +0800</lastBuildDate>
-    <atom:link href="https://about.weirdo.monster/tags/2026/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2026的第一篇文章内容</title>
-      <link>https://about.weirdo.monster/posts/2026-01-01/</link>
-      <pubDate>Thu, 01 Jan 2026 14:09:37 +0800</pubDate>
-      <guid>https://about.weirdo.monster/posts/2026-01-01/</guid>
-      <description>&lt;img src=&#34;https://about.weirdo.monster/posts/images/IMG_2791.JPEG&#34; alt=&#34;封面&#34; width=&#34;315px&#34; height=&#34;390px&#34; class=&#34;asset-content img&#34;&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>2026 on Dev Notes</title><link>https://about.weirdo.monster/tags/2026/</link><description>Recent content in 2026 on Dev Notes</description><generator>Hugo -- 0.153.5</generator><language>zh-cn</language><lastBuildDate>Thu, 01 Jan 2026 14:09:37 +0800</lastBuildDate><atom:link href="https://about.weirdo.monster/tags/2026/index.xml" rel="self" type="application/rss+xml"/><item><title>2026的第一篇文章内容</title><link>https://about.weirdo.monster/posts/2026-01-01/</link><pubDate>Thu, 01 Jan 2026 14:09:37 +0800</pubDate><guid>https://about.weirdo.monster/posts/2026-01-01/</guid><description>&lt;img src="https://about.weirdo.monster/posts/images/IMG_2791.JPEG" alt="封面" width="315px" height="390px" class="asset-content img"&gt;
 &lt;p&gt;Apple Watch 记录的元旦烟花。&lt;/p&gt;
-&lt;h2 id=&#34;动机&#34;&gt;动机&lt;/h2&gt;
+&lt;h2 id="动机"&gt;动机&lt;/h2&gt;
 &lt;p&gt;在2026年第一天，写的第一篇博客。&lt;/p&gt;
 &lt;p&gt;几年前，就已经用 &lt;code&gt;Hexo&lt;/code&gt; 和 &lt;code&gt;WordPress&lt;/code&gt;写过几篇内容，然后还部署在了GitHub上，成就感十足。&lt;/p&gt;
 &lt;p&gt;大模型的飞速发展，让内容获取唾手可得，想实现什么功能，只要半分钟能给出整个方案从规划到落地。&lt;/p&gt;
@@ -24,12 +9,12 @@
 &lt;p&gt;2025年11月，偶然在平台 &lt;code&gt;Spaceship&lt;/code&gt; 买了一个域名 &lt;code&gt;.monster&lt;/code&gt; 挂在Cloudflare上。偶然了解Cloudflare会提供一种叫 &lt;code&gt;Tunnel&lt;/code&gt; 的内网穿透技术，这个域名就被用起来了。&lt;/p&gt;
 &lt;p&gt;决定写博客的想法是，我们在大模型的技术包围下，好像渐渐得都失去了创造力，拿来即用的方法让我们不再关心它是怎么实现的，一出了问题就问AI，反反复复。&lt;/p&gt;
 &lt;p&gt;最后，我成了一个没有思想的 &lt;code&gt;Agent&lt;/code&gt;。&lt;/p&gt;
-&lt;img src=&#34;https://about.weirdo.monster/posts/images/Snipaste_2026-01-02_13-44-39.png&#34; alt=&#34;封面&#34; width=&#34;100%&#34; height=&#34;50%&#34; class=&#34;asset-content img&#34; /&gt;
+&lt;img src="https://about.weirdo.monster/posts/images/Snipaste_2026-01-02_13-44-39.png" alt="封面" width="100%" height="50%" class="asset-content img" /&gt;
 &lt;p&gt;来自ChatGPT部分内容截图。&lt;/p&gt;
 &lt;p&gt;就拿 &lt;code&gt;Tunnel&lt;/code&gt; 来说，简短的几个命令，我都会去问上至少两遍。&lt;/p&gt;
 &lt;p&gt;平时，每到周五最期待的就是看阮一峰大佬写的周刊，里面的内容有时会让人耳目一新，有时也会产生思考。文章下面的评论也很有意思，各种不同角度的看法。&lt;/p&gt;
 &lt;p&gt;让我想引入的是这期：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.ruanyifeng.com/blog/2022/04/weekly-issue-202.html&#34;&gt;第 202 期：三个有启发的学习方法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.ruanyifeng.com/blog/2022/04/weekly-issue-202.html"&gt;第 202 期：三个有启发的学习方法&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;看似最笨的学习方法&amp;ndash;笔记和记忆力&amp;ndash;偏偏造就了最高的开发效率&lt;/li&gt;
 &lt;li&gt;如果没有对旧事物进行大量练习，你不太可能发现新事物。&lt;/li&gt;
@@ -37,7 +22,4 @@
 &lt;/ol&gt;
 &lt;p&gt;后面在博客里，我也尽可能的会写一些自己觉得有意义的内容。&lt;/p&gt;
 &lt;p&gt;最后：&lt;/p&gt;
-&lt;p&gt;2026，新年快乐！&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+&lt;p&gt;2026，新年快乐！&lt;/p&gt;</description></item></channel></rss>
